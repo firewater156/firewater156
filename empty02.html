@@ -4,33 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-    <link href="empty.css" rel="stylesheet"> <!-- 외부 CSS 연결 -->
     <style>
         /* CSS 코드 */
-        #text01 {
-            #button {
-                display: block;
-                position: 1080px;
-                width: 280px;
-                height: 50px;
-                top: 100px;
-                left: 100px;
-                background-color: red;
-            }
-            font-size: 64px;
-            
+        #button {
+            display: block;
+            position: 1080px;
+            width: 280px;
+            height: 50px;
+            top: 100px;
+            left: 100px;
+            background-color: red;
         }
-        #text02 {
-            #button {
-                display: block;
-                position: 1080px;
-                width: 280px;
-                height: 50px;
-                top: 100px;
-                left: 100px;
-                background-color: red;
-            }
-            font-size: 64px;
+        #target {
+            
+            display: block;
+            position: 1080px;
+            width: 280px;
+            height: 50px;
+            top: 100px;
+            left: 100px;
+            background-color: blue;
+        }
+            
     </style>
 </head>
 
@@ -39,8 +34,9 @@
     <div id="target"></div>
     <script>
         document.getElementById('button').onclick = function(){
-            document.getElementById('target').style
-            document.write('<p>클릭했습니다.</p>');
+            document.getElementById('target').style.width = '400px' ;
+            document.getElementById('target').style.height = '400px' ;
+            document.getElementById('target').style.backgroundColor = '#ff0000' ;
         };
     </script>
 </body>
