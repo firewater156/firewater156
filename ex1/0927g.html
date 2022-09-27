@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>9월 27일 실습 - jQuery</title>
+    <link href="block.css" rel="stylesheet"> <!-- 외부 CSS 연결 -->
+</head>
+
+
+
+<body>
+    <div id="button01">
+    <div id="button02">
+        <div id="target01">
+            <p class="menuitem"><a href="#">메뉴1</a></p>
+            <p class="menuitem"><a href="#">메뉴2</a></p>
+            <p class="menuitem"><a href="#">메뉴3</a></p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script>
+        $('#button01').hover(
+            function(){
+                $('#target01').fadeIn(300);
+            }
+        );    
+        $('#button02').hover(    
+            function(){
+                $('#target01').fadeOut(300);
+            }
+        );
+
+        <div id="button01"></div>
+    <div id="target01"></div>
+
+    <script type="text/javascript" src="jquery-3.6.1.min.js"></script> <!-- JS 라이브러리 또는 외부 스크립트 연결 -->
+    <script>
+        $('#button01').hover(
+            function(){
+                $('#target01').css('display', 'block');
+            },
+            function(){
+                $('#target01').css('display', 'none');
+            }
+        );
+        $('#button01').click(function(){
+            $('#target01').css({'width':'400px', 'height':'400px'});
+        });
+
+        $('#button02').hover(
+            function(){
+                $('#target01').css('display', 'block');
+            },
+            function(){
+                $('#target01').css('display', 'none');
+            }
+        );
+        $('#button02').click(function(){
+            $('#target01').css({'width':'300px', 'height':'200px'});
+        });
+    </script>
+
+
+    
+    
+</body>
+
+</html>
