@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="index.css" rel="stylesheet">
+    <title>중간과제</title>
+    <p id="title"><b>고급디지털표현 중간과제</b></p>
+    <style>
+
+    </style>
+</head>
+<body>
+   
+
+    <div id="object1">hover
+        <div id="object1-1">박스1-1
+        </div>
+    </div>
+    <div id="object2">click
+    </div>
+    <div id="object3">slideToggle
+        <div id="object3-3">박스4
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script>    
+        $('#object1').hover(
+            function(){
+                $('#object1-1').fadeIn(300);
+            },
+            function(){
+                $('#object1-1').fadeOut(300);
+            }
+        );
+        document.getElementById('object2').onclick = function(){
+            document.getElementById('object2').style.height = '600px';
+        document.getElementById('object2').onclick = function(){
+            document.getElementById('object2').style.height = '200px';
+        };
+        };
+        
+        $('#object3').click(
+            function(){
+                $('#object3-3').slideToggle(200).show();
+            },
+            function(){
+                $('#object3-3').slideToggle(200).show();
+            }
+        );
+
+   </script>
+
+</body>
