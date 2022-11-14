@@ -90,21 +90,33 @@
     background-color: aquamarine;
 }
 
-#layout1{
+#layout1 {
     display: block;
     position: fixed;
     top: 100px;
     right: 100px;
     width: 860px;
-    height: 340px;
+    height: 360px;
     background-color: blue;
 }
+
+#layout1-1 {
+    display: block;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    width: 910px;
+    height: 410px;
+    background-color: rgb(134, 53, 0);
+}
+
+
 #layout2{
     display: block;
     position: fixed;
     top: 540px;
     right: 100px;
     width: 860px;
-    height: 340px;
+    height: 360px;
     background-color: rgb(255, 0, 255);
 }

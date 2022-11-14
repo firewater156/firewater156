@@ -26,7 +26,28 @@
         </div>
     </div>
 
-    <div id="layout1">layout</div>
+    <div id="layout1">
+        <img src="portfolio/vampirehuman/vampirehuman thumnail.jpg"
+        width="860px" height="360px"
+        onmouseenter="zoomIn(event)" 
+        onmouseleave="zoomOut(event)"
+        >
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script>    
+            function zoomIn(event) {
+      event.target.style.transform = "scale(1.1)";
+      event.target.style.zIndex = 1;
+      event.target.style.transition = "all 0.5s";
+            }
+            function zoomOut(event) {
+      event.target.style.transform = "scale(1)";
+      event.target.style.zIndex = 0;
+      event.target.style.transition = "all 0.5s";
+    }
+    </script>
     <div id="layout2">layout2</div>
     
 </body>
