@@ -1,7 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+
 #introduce-layout {
     display: block;
     position: fixed;
-    top: 100px;
+    top: 80px;
     left: 100px;
     width: 700px;
     height: 150px;
@@ -93,28 +98,17 @@
 #layout1 {
     display: block;
     position: fixed;
-    top: 100px;
+    top: 80px;
     right: 100px;
     width: 860px;
     height: 360px;
     background-color: blue;
 }
 
-#layout1-1 {
-    display: block;
-    position: fixed;
-    top: 100px;
-    right: 100px;
-    width: 910px;
-    height: 410px;
-    background-color: rgb(134, 53, 0);
-}
-
-
 #layout2{
     display: block;
     position: fixed;
-    top: 540px;
+    top: 480px;
     right: 100px;
     width: 860px;
     height: 360px;

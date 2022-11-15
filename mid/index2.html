@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="index2.css" rel="stylesheet">
     <title>포트폴리오</title>
-    <p id="title"><b>포트폴리오 레이아웃</b></p>
+    <p id="title"><b></b></p>
     <style>
 
     </style>
@@ -16,27 +16,36 @@
     <div id="contact-frame">
         <div id="contact"></div>
         <div id="phone">
-            <div id="phone-icon"></div>
+            <div id="phone-icon">휴대폰</div>
         </div>
         <div id="email">
-            <div id="email-icon"></div>
+            <div id="email-icon">이메일</div>
         </div>
         <div id="insta">
-            <div id="insta-icon"></div>
+            <div id="insta-icon">sns</div>
         </div>
     </div>
 
-    <div id="layout1">
+    <div id="layout1"
+    onmouseenter="zoomIn(event)" 
+    onmouseleave="zoomOut(event)">
         <img src="portfolio/vampirehuman/vampirehuman thumnail.jpg"
-        width="860px" height="360px"
-        onmouseenter="zoomIn(event)" 
-        onmouseleave="zoomOut(event)"
-        >
+        width="860px" height="360px" >
         </div>
+
+    <div id="layout2"
+    onmouseenter="zoomIn(event)" 
+    onmouseleave="zoomOut(event)">
+        width="860px" height="360px"
+
+        >
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script>    
+    <script>
+        function newPage()  {
+  window.location.href = 'https://hianna.tistory.com'
+        }
             function zoomIn(event) {
       event.target.style.transform = "scale(1.1)";
       event.target.style.zIndex = 1;
@@ -47,7 +56,8 @@
       event.target.style.zIndex = 0;
       event.target.style.transition = "all 0.5s";
     }
+    
     </script>
-    <div id="layout2">layout2</div>
+
     
 </body>
