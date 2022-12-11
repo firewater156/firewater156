@@ -10,7 +10,7 @@ body {
     left: 100px;
     width: 700px;
     height: 150px;
-    background-color: aqua;
+    background-color: 
 }
 
 #contact-frame{
@@ -42,18 +42,19 @@ body {
     display: block;
     position: relative;
     border-radius: 10px;
-    top: 0px;
+    top: 50%;
+    transform: translateY(-50%);
     left: 150px;
     width: 500px;
-    height: 100px;
-    background-color: rgb(246, 255, 127);
+    height: 50px;
+    background-color: 
 }
 #phone-icon{
     display: block;
     position: relative;
     border-radius: 10px;
     top: 0px;
-    left: -150px;
+    left: 0px;
     width: 100px;
     height: 100px;
     background-color: rgb(255, 210, 127);
@@ -62,18 +63,19 @@ body {
     display: block;
     position: relative;
     border-radius: 10px;
-    top: 0px;
+    top: 50%;
+    transform: translateY(-50%);
     left: 150px;
     width: 500px;
-    height: 100px;
-    background-color: rgb(255, 189, 127);
+    height: 50px;
+    background-color: 
 }
 #email-icon{
     display: block;
     position: relative;
     border-radius: 10px;
     top: 0px;
-    left: -150px;
+    left: 0px;
     width: 100px;
     height: 100px;
     background-color: rgb(255, 210, 127);
@@ -82,18 +84,19 @@ body {
     display: block;
     position: relative;
     border-radius: 10px;
-    top: 0px;
+    top: 50%;
+    transform: translateY(-50%);
     left: 150px;
-    width: 500px;
-    height: 100px;
-    background-color: rgb(150, 127, 255);
+    width: 700px;
+    height: 50px;
+    background-color: 
 }
 #insta-icon{
     display: block;
     position: relative;
     border-radius: 10px;
     top: 0px;
-    left: -150px;
+    left: 0px;
     width: 100px;
     height: 100px;
     background-color: rgb(106, 175, 141);
@@ -138,3 +141,13 @@ body {
     background-color: rgb(255, 0, 255);
 }
 
+#layout2:hover{
+    opacity: 70%;
+    box-shadow: 0px 10px 10px black;
+}
+
+#layout1:active {
+    float: center;
+    opacity: 100%;
+    transition-duration: 0.1s;
+}
