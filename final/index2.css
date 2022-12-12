@@ -3,159 +3,109 @@ body {
     padding: 0;
  }
 
-#introduce-layout {
+
+#background_panel {
     display: block;
     position: fixed;
-    top: 20%;
-    left: 5%;
-    width: 40%;
-    height: 10%;
-    background-color:
+    width: 100%;
+    height: 100%;
+    background-color: rgb(73, 63, 63);
 }
 
-#contact-frame{
+#panel {
     display: block;
-    position: fixed;
-    border-radius: 10px;
-    top: 40%;
-    left: 5%;
-    width: 35%;
-    height: 35%;
-    background-color: rgb(73, 71, 71);
-}
-#contact{
-    font-weight: bold;
-    font-size: 50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
-    display: block;
-    position: relative;
-    border-radius: 10px;
-    top: 0%;
-    left: 2%;
-    width: 110%;
-    height: 25%;
-    background-color:
-}
-#phone-icon{
-    display: block;
-    position: relative;
-    border-radius: 10px;
-    top: 5%;
-    left: 0%;
-    width: 10%;
-    height: 20%;
-    background-color: 
-}
-
-#phone{
-    display: block;
-    position: relative;
-    border-radius: 10px;
-    top: -75%;
-    left: 150%;
-    width: 50%;
-    height: 50%;
-    background-color: 
-}
-
-#email{
-    display: block;
-    position: relative;
-    border-radius: 10px;
-    top: -75%;
-    left: 150%;
-    width: 50%;
-    height: 50%;
-    background-color: 
-}
-#email-icon{
-    display: block;
-    position: relative;
-    border-radius: 10px;
-    top: 10%;
-    left: 0%;
-    width: 10%;
-    height: 20%;
-    background-color:
-}
-#insta {
-    display: block;
-    position: relative;
-    border-radius: 10px;
-    top: -75%;
-    left: 150%;
-    width: 50%;
-    height: 50%;
-    background-color: aliceblue;
-}
-
-#insta-icon{
-    display: block;
-    position: relative;
-    border-radius: 10px;
-    top: 12%;
-    left: 0%;
-    width: 10%;
-    height: 20%;
-    overflow: hidden;
-    background-color:
-}
-#insta2 {
-    display: block;
+    border: 10px solid #000000;
+    border-radius: 20px;
     position: absolute;
-    border-radius: 10px;
-    top: 82%;
-    left: 15%;
-    width: 20%;
-    height: 20%;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
+    height: auto;
+    background-color: antiquewhite;
+
 }
 
+#panel > img {
+    display: block;
+    width: 1200px;
+}
 
+#panel:hover {
+    cursor: pointer;
+}
+#video1 {
+    display: block;
+    border: 10px solid #000000;
+    border-radius: 20px;
+    position: absolute;
+    top: 11800px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1500px;
+    height: auto;
+    background-color: antiquewhite;
+}
 
-#layout1 {
+#video2 {
+    display: block;
+    border: 10px solid #000000;
+    border-radius: 20px;
+    position: absolute;
+    top: 12800px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1500px;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+#footer {
+    display: block;
+    width: 100%;
+    height: 800px;
+    top: 13700px;
+    position: absolute;
+    background-color: rgb(73, 63, 63);
+}
+
+#footerimgbox {
+    display: block;
+    border: 10px solid #000000;
+    border-radius: 20px;
+    position: absolute;
+    top: 13800px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: auto;
+}
+
+#footerimgbox > img {
+    display: block;
+    height: 50%;
+}
+
+#backbutton {
     display: block;
     position: fixed;
-    top: 10%;
-    right: 5%;
-    width: 35%;
-    height: 33%;
-    background-color: blue;
-    border-radius: 30px;
-    overflow: hidden;
+    top: 2%;
+    left: 2%;
+    width: 2.5%;
+    height: 5%;
+    border-radius: 50%;
+    background-color: antiquewhite
 }
 
-#layout1:hover{
-    opacity: 70%;
-    box-shadow: 0px 10px 10px black;
+#backbutton:hover {
+    cursor: pointer;
 }
 
-#layout1:active {
-    float: center;
-    opacity: 100%;
-    transition-duration: 0.1s;
-}
-
-#layout2{
-    display: block;
-    position: fixed;
+#backbutton > img {
+    position: absolute;
+    width: 70%;
+    height: 70%;
     top: 50%;
-    right: 5%;
-    width: 35%;
-    height: 35%;
-    background-color: rgb(255, 0, 255);
-    border-radius: 30px;
-    overflow: hidden;
-}
-
-#layout2:hover{
-    opacity: 70%;
-    box-shadow: 0px 10px 10px black;
-}
-
-#layout1:active {
-    float: center;
-    opacity: 100%;
-    transition-duration: 0.1s;
-}
-
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
