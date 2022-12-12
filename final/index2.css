@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+
+#introduce-layout {
+    display: block;
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    width: 40%;
+    height: 10%;
+    background-color:
+}
+
+#contact-frame{
+    display: block;
+    position: fixed;
+    border-radius: 10px;
+    top: 40%;
+    left: 5%;
+    width: 35%;
+    height: 35%;
+    background-color: rgb(73, 71, 71);
+}
+#contact{
+    font-weight: bold;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    top: 0%;
+    left: 2%;
+    width: 110%;
+    height: 25%;
+    background-color:
+}
+#phone-icon{
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    top: 5%;
+    left: 0%;
+    width: 10%;
+    height: 20%;
+    background-color: 
+}
+
+#phone{
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    top: -75%;
+    left: 150%;
+    width: 50%;
+    height: 50%;
+    background-color: 
+}
+
+#email{
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    top: -75%;
+    left: 150%;
+    width: 50%;
+    height: 50%;
+    background-color: 
+}
+#email-icon{
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    top: 10%;
+    left: 0%;
+    width: 10%;
+    height: 20%;
+    background-color:
+}
+#insta {
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    top: -75%;
+    left: 150%;
+    width: 50%;
+    height: 50%;
+    background-color: aliceblue;
+}
+
+#insta-icon{
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    top: 12%;
+    left: 0%;
+    width: 10%;
+    height: 20%;
+    overflow: hidden;
+    background-color:
+}
+#insta2 {
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    top: 82%;
+    left: 15%;
+    width: 20%;
+    height: 20%;
+}
+
+
+
+#layout1 {
+    display: block;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    width: 35%;
+    height: 33%;
+    background-color: blue;
+}
+
+#layout1:hover{
+    opacity: 70%;
+    box-shadow: 0px 10px 10px black;
+}
+
+#layout1:active {
+    float: center;
+    opacity: 100%;
+    transition-duration: 0.1s;
+}
+
+#layout2{
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    width: 35%;
+    height: 35%;
+    background-color: rgb(255, 0, 255);
+}
+
+#layout2:hover{
+    opacity: 70%;
+    box-shadow: 0px 10px 10px black;
+}
+
+#layout1:active {
+    float: center;
+    opacity: 100%;
+    transition-duration: 0.1s;
+}
+
