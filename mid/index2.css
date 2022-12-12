@@ -121,7 +121,7 @@ body {
     width: 35%;
     height: 33%;
     background-color: blue;
-    border-radius: 30px;
+    border-radius: 50px;
     overflow: hidden;
 }
 
@@ -144,7 +144,7 @@ body {
     width: 35%;
     height: 35%;
     background-color: rgb(255, 0, 255);
-    border-radius: 30px;
+    border-radius: 20px;
     overflow: hidden;
 }
 
